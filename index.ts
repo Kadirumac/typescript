@@ -1,19 +1,33 @@
-class Student {
-    fullName: string;
-    constructor(public firstName: string, public middleInitial: string, public lastName: string) {
-        this.fullName = firstName + " " + middleInitial + " " + lastName;
-    }
-}
+export{}
+let user = 'hellsadao'
 
-interface Person {
-    firstName: string;
-    lastName: string;
-}
+console.log(user);
 
-function greeter(person: Person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
-}
 
-let user = new Student("Jane", "M.", "User");
+let x  = 10;
 
-document.body.textContent = greeter(user);
+const y = 20;
+
+const title = 'Web Developer';
+
+let Bool : boolean = true;
+
+let Num: number = 20;
+
+let sentence : string = `hello ${title} how are you`
+
+console.log(sentence);
+
+var n : boolean = null;
+var s : string = undefined;
+console.log(n, s);
+
+let list: number[] = [1,2,3,4]
+
+const list2: Array<number> = [1,2,3,4]
+let person: [string, number] = ['John', 22];
+
+enum X  {Red, Green, Blue};
+
+let r : X = X.Green
+console.log(r);
