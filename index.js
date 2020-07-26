@@ -24,3 +24,30 @@ var X;
 ;
 var r = X.Green;
 console.log(r);
+var myVaribale = 'Ali';
+var a = myVaribale.toLowerCase();
+console.log(a);
+var b;
+b = 10;
+b = true;
+var multyType;
+multyType = 20;
+multyType = true;
+var anyType;
+anyType = true;
+anyType = 'sd';
+function add(num1, num2) {
+    return num1 + num2;
+}
+add(1, 2);
+var f = add(2, 3);
+console.log(f);
+add(8);
+function fullname(person) {
+    console.log(person.firstname + " " + person.lastname);
+}
+var p = {
+    firstname: "John",
+    lastname: "Hanks"
+};
+fullname(p);
